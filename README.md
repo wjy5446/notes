@@ -30,4 +30,4 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - [note](./notes/vae.md)
 - Conditional VAE, Adversarial AE (18.10.18)
   - **`VAE`**
-  - [note](./notes/cvae-aae.md)
+  - [note](./notes/cvae_aae.md)
