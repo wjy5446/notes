@@ -37,13 +37,14 @@
 
 
 
+
 - Monte-carlo estimator를 직접 이용하지 않는 이유
 
   - $p(z)$ 을 알고있는 분포를 이용할 경우, Monte-carlo 적용 가능
   - $p(z)$ 을 gaussian을 이용했을 때, ML이 MSE Loss이 된다. 이 때, 밑 그림에서 (a, c)가 (a,b)보다 가깝지만, MSE에서 멀다고 측정된다. 
   - 그러므로, 학습이 잘 되지 않는다.  
 
-  ![0](/Users/whale/Desktop/project/note_paper/image/vae-0.png)
+  ![0](../images/vae-0.png)
 
 - **Solution**
 
@@ -53,7 +54,7 @@
 
 - **Variational Inference**
 
-![1](/Users/whale/Desktop/project/note_paper/image/vae-1.png)
+![1](../images/vae-1.png)
 $$
 \arg\min D_{KL}(p(z|x)||q(z|x))
 $$
@@ -61,7 +62,7 @@ $$
 
 ## The Variational bound
 
-![2](/Users/whale/Desktop/project/note_paper/image/vae-2.png)
+![2](../images/vae-2.png)
 
 - $D_{KL}$은 항상 0보다 크다.
 
@@ -72,7 +73,7 @@ $$
 
 
 
-  ![3](/Users/whale/Desktop/project/note_paper/image/vae-3.png)
+  ![3](../images/vae-3.png)
 
 - 첫번째 Term
 
@@ -98,14 +99,14 @@ $$
 
 
 
--  **reparameterization trick**
+- **reparameterization trick**
 
   - 미분이 불가능한 걸 해결하기 위해서 사용
 
-  ![5](/Users/whale/Desktop/project/note_paper/image/vae-5.png)
+  ![5](../images/vae-5.png)
 
 
-![4](/Users/whale/Desktop/project/note_paper/image/vae-4.png)
+![4](../images/vae-4.png)
 
 
 
@@ -130,15 +131,15 @@ $$
 
 ## Stucture
 
-![6](/Users/whale/Desktop/project/note_paper/image/vae-6.png)
+![6](../images/vae-6.png)
 
-![7](/Users/whale/Desktop/project/note_paper/image/vae-7.png)
+![7](../images/vae-7.png)
 
 
 
 ## Example
 
-![8](/Users/whale/Desktop/project/note_paper/image/vae-8.png)
+![8](../images/vae-8.png)
 
 
 

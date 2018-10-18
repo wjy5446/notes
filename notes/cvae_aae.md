@@ -26,7 +26,8 @@
   $$
 
 
-![](/Users/whale/Desktop/project/note_paper/image/cae-1.png)
+
+![](../images/cae-1.png)
 
 
 
@@ -34,7 +35,7 @@
   - 첫번째 방법 : x를 이용해 y를 예측하고, 예측된 y를 encorder, decorder의 입력으로 사용
   - 두번째 방법 : 먼저 기존 방법으로 VAE를 학습한 후, 학습된 encoder의 윗단에 y를 예측하는 부분 추가
 
-![](/Users/whale/Desktop/project/note_paper/image/cae-2.png)
+![](../images/cae-2.png)
 
 
 
@@ -42,11 +43,11 @@
 
 - 라벨이 숫자일 경우
 
-![](/Users/whale/Desktop/project/note_paper/image/cae-3.png)
+![](../images/cae-3.png)
 
 - 라벨이 스타일일 경우
 
-  ![](/Users/whale/Desktop/project/note_paper/image/cae-4.png)
+  ![](../images/cae-4.png)
 
 
 
@@ -59,15 +60,15 @@
 
 ### 방법
 
-![](/Users/whale/Desktop/project/note_paper/image/aae-1.png)
+![](../images/aae-1.png)
 
 - prior에서 뽑은 데이터를 진짜, AutoEncoder의 encoder가 만든 데이터를 가짜라고 하고 discrimiator가 이를 구분하도록 학습
 
 
 
-![](/Users/whale/Desktop/project/note_paper/image/aae-2.png)
+![](../images/aae-2.png)
 
-![](/Users/whale/Desktop/project/note_paper/image/aae-3.png)
+![](../images/aae-3.png)
 
 - 우선 AE를 학습한다.
 - 그런 다음에 AE가 생성한 데이터와 prior가 생성한 데이터의 구분하는 discriminator 학습
@@ -79,11 +80,11 @@
 
 - 아래 그림의 10개 gaussian mixture을 사용할 때, 원하는 위치에서 데이터 분포 시키는 방법
 
-![](/Users/whale/Desktop/project/note_paper/image/aae-7.png)
+![](/Users/whale/Desktop/project/note_paper/images/aae-7.png)
 
 
 
-![](/Users/whale/Desktop/project/note_paper/image/aae-6.png)
+![](..images/aae-6.png)
 
 -  Discriminator을 학습시킬 때, 
   - prior p(z)는 데이터 샘플링의 위치에 해당되는 라벨 정보를 넣어주어 학습
