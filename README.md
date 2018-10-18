@@ -9,7 +9,7 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 
 - [Deep Learning](#deep-learning)
   - [Computer Vision](#computer-vision)
-  - [Generative Model](generative-model)
+  - [Generative Model](#generative-model)
 
 - Data Engineering
 
@@ -27,7 +27,7 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 
 - Auto-Encoding Variational Bayes (18.10.18)
   - **`VAE`**
-  - [note](notes/vae.md)
+  - [note](./notes/vae.md)
 - Conditional VAE, Adversarial AE (18.10.18)
   - **`VAE`**
-  - [note](notes/cvae-aae.md)
+  - [note](./notes/cvae-aae.md)
