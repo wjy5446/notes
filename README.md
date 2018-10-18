@@ -1,5 +1,5 @@
 # notes [![whale-note](https://img.shields.io/badge/whale-notes-blue.svg?style=flat&colorA=40E0D0&colorB=555555)](https://github.com/wjy5446)
-summarize the `papers`, `lectures`, `article`, `seminar` 
+summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: Harder!!
 
 
 
