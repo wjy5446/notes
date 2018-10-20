@@ -41,4 +41,4 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 
 - Iterator, Generator, Coroutine (18.10.20)
   - **`ITERATOR`**, **`GENERATOR`**
-  - [note](./notes/program/iterator_generator.md)
+  - [note](./notes/program/Iterator_generator.md)
