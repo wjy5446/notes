@@ -10,8 +10,9 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - [Deep Learning](#deep-learning)
   - [Computer Vision](#computer-vision)
   - [Generative Model](#generative-model)
-
 - Data Engineering
+- [Programming](#programming)
+  - [Python](#python)
 
 
 
@@ -27,7 +28,17 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 
 - Auto-Encoding Variational Bayes (18.10.18)
   - **`VAE`**
-  - [note](./notes/vae.md)
+  - [note](./notes/deep/vae.md)
 - Conditional VAE, Adversarial AE (18.10.18)
   - **`VAE`**
-  - [note](./notes/cvae-aae.md)
+  - [note](./notes/deep/cvae-aae.md)
+
+
+
+## Programming
+
+### Python
+
+- Iterator, Generator, Coroutine (18.10.20)
+  - **`ITERATOR`**, **`GENERATOR`**
+  - [note](./notes/program/iterator_generator.md)
