@@ -10,6 +10,7 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - [Deep Learning](#deep-learning)
   - [Computer Vision](#computer-vision)
   - [Generative Model](#generative-model)
+  - [Style Transfer](#style-transfer)
 - Data Engineering
 - [Programming](#programming)
   - [Python](#python)
@@ -32,6 +33,14 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - Conditional VAE, Adversarial AE (18.10.18)
   - **`VAE`**
   - [note](./notes/deep/cvae-aae.md)
+
+
+
+### Style Transfer
+
+- Image Style Transfer Using Convolutional Neural Networks (18.10.22)
+  - **`STYLE TRANSFER`**
+  - [note](notes/deep/style_transfer.md)
 
 
 
