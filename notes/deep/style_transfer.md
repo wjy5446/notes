@@ -21,6 +21,8 @@
 ## 방법
 
 - VGG 19 이용
+- weight normalization
+- max pooling -> avg poiling을 사용
 
 
 
