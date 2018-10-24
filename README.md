@@ -41,10 +41,9 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - Image Style Transfer Using Convolutional Neural Networks (18.10.22)
   - **`STYLE TRANSFER`**
   - [note](notes/deep/style_transfer.md)
-
 -  Perceptual Loss for Real-Time Style Transfer (18.10.24)
   - **`STYLE TRANSFER`**
-  - [note](notes/deep/style_transfer_for_real_time.md)
+  - [note](notes/deep/style_transfer_real_time.md)
 
 
 
