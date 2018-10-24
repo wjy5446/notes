@@ -42,7 +42,8 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`STYLE TRANSFER`**
   - [note](notes/deep/style_transfer.md)
 - Perceptual Loss for Real-Time Style Transfer (18.10.24)
-
+  - **`STYLE TRANSFER`**
+  - [note](notes/deep/style_transfer_real_time.md)
 
 ## Programming
 
