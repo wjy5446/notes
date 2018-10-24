@@ -1,6 +1,6 @@
 # Perceptual Loss for Real-Time Style Transfer
 
-- Date : 2016
+- Date : 2016.03
 - Author : Justin Johnson, Alexandre Alahi, Li Fei-Fei
 
 
