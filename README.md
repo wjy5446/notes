@@ -34,7 +34,11 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`VAE`**
   - [note](./notes/deep/cvae_aae.md)
 
+- Generative Adversarial Nets (18.10.28)
+  - **`GAN`**
+  - [note](./notes/deep/gan.md)
 
+### 
 
 ### Style Transfer
 
