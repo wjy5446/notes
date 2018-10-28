@@ -7,7 +7,9 @@
 
 ## Simple summary
 
->VAE은 latent vector z에서 p(x)을 생성하기 위해 만들어 졌다. p(z)에서는 생성시 잘 되지 않기 때문에, p(z|x)을 이용해 p(x)을 생성한다. 하지만, p(z|x)을 모르기 때문에 다루기 쉬운 분포에 Variational Inference을 이용해 학습한다. 학습 할 때, SGA를 이용해 학습하기 위해 Reparametation trick을 이용해 구한다.
+>  GAN은 adversarial method을 통해 학습하는 generative model이다. GAN은 두가지 네트워크로 구성되는 데, 데이터를 생성하는 Generator와 데이터를 구분하는 Discriminator로 구성되고, 이 둘은 서로 번갈아가면서 학습하며, 결국 D가 G에서 생성된 데이터를 구분하지 못할 때까지 학습된다. 
+>
+>  이 논문에서는 GAN을 증명하기 위해서, 수식적으로 증명했다. 첫번째 증명은 G가 고정되었을 때 optimum D에서의 값이 pdata/pdata + pg, 두번째 증명은 optimum D에서 optimum G는 pg = pdata가 같음, 세번째 증명은 G, D가 충분한 능력을 가졌을 때, G는 항상 수렴. 이 세가지 증명을 통해 GAN이 학습시 pg와 pdata가 같아짐을 증명했다.
 
 
 
