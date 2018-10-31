@@ -40,7 +40,11 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`GAN`**
   - [note](./notes/deep/lsgan.md)
 
-### 
+- LSGAN (18.10.31)
+  - **`GAN`**
+  - [note](notes/deep/improved_gan.md)
+
+
 
 ### Style Transfer
 
