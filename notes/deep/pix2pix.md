@@ -8,9 +8,7 @@
 
 ## Simple summary
 
->VAE은 latent vector z에서 p(x)을 생성하기 위해 만들어 졌다. p(z)에서는 생성시 잘 되지 않기 때문에, p(z|x)을 이용해 p(x)을 생성한다. 하지만, p(z|x)을 모르기 때문에 다루기 쉬운 분포에 Variational Inference을 이용해 학습한다. 학습 할 때, SGA를 이용해 학습하기 위해 Reparametation trick을 이용해 구한다.
-
-
+>Pix2Pix는 cGAN을 이용해, Image Translation을 수행하는 모델이다. 학습을 잘 진행하기 위해서, 구조적 팁을 제공하는 데, Generator의 경우, 원본과 같은 구조를 가지기 위해서 L1 regularztion, U-Net 구조를 추가했으며, Discriminator의 경우, PatchGAN을 적용했다. Pix2Pix는 다양한 어플리케이션으로 사용할 수 있게 되었다.
 
 ## 목적
 
