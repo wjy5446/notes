@@ -39,14 +39,15 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - LSGAN (18.10.28)
   - **`GAN`**
   - [note](./notes/deep/lsgan.md)
-
 - LSGAN (18.10.31)
   - **`GAN`**
   - [note](notes/deep/improved_gan.md)
-
 - Pix2Pix (18.11.05)
   - **`GAN`**, **`IMAGE TRANSFER`** 
   - [note](notes/deep/pix2pix.md)
+- Cycle GAN (18.11.07)
+  - **`GAN`**, **`IMAGE TRANSFER`** 
+  - [note](notes/deep/cycle_gan.md)
 
 ### Style Transfer
 
