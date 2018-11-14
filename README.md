@@ -48,6 +48,9 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - Cycle GAN (18.11.07)
   - **`GAN`**, **`IMAGE TRANSFER`** 
   - [note](notes/deep/cycle_gan.md)
+- BEGAN (18.11.14)
+  - **`GAN`**
+  - [note](notes/deep/began.md)
 
 ### Style Transfer
 
