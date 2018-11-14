@@ -8,7 +8,7 @@
 
 ## Simple summary
 
->BEGAN은 discriminator을 auto-encoder을 사용하여, real 데이터와 fake 데이터의 auto-encoder loss의 W-distance을 loss로 삼는다. 기존의 EBGAN의 auto-encoder 개념과 WGAN의 개념을 동시에 사용한 듯 싶다. 또한, 여기서 D와 G가 안정적으로 학습하기 위해 equilibrium 개념을 소개한다. 이를 이용해 G와 D가 안정적으로 학습을 유도하고, GAN의 수렴 척도를 계산할 수 있다.
+>BEGAN은 discriminator을 auto-encoder을 사용하여, real 데이터와 fake 데이터의 auto-encoder loss의 W-distance을 loss로 삼는다. 기존의 EBGAN의 auto-encoder 개념과 WGAN의 개념을 동시에 사용한 듯 싶다. 또한, 여기서 D와 G가 안정적으로 학습하기 위해 equilibrium 개념을 소개한다. 이를 이용해 G와 D가 안정적으로 학습을 유도하고, image의 diversity을 control할 수 있으며, GAN의 수렴 척도를 계산할 수 있다.
 
 
 
