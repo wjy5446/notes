@@ -30,27 +30,40 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - Auto-Encoding Variational Bayes (18.10.18)
   - **`VAE`**
   - [note](./notes/deep/vae.md)
+
 - Conditional VAE, Adversarial AE (18.10.18)
   - **`VAE`**
   - [note](./notes/deep/cvae_aae.md)
+
 - Generative Adversarial Nets (18.10.28)
   - **`GAN`**
   - [note](./notes/deep/gan.md)
+
 - LSGAN (18.10.28)
   - **`GAN`**
   - [note](./notes/deep/lsgan.md)
+
 - Improved Techniques for Training GANs (18.10.31)
   - **`GAN`**
   - [note](notes/deep/improved_gan.md)
+
 - Pix2Pix (18.11.05)
   - **`GAN`**, **`IMAGE TRANSFER`** 
   - [note](notes/deep/pix2pix.md)
+
 - Cycle GAN (18.11.07)
   - **`GAN`**, **`IMAGE TRANSFER`** 
   - [note](notes/deep/cycle_gan.md)
+
 - BEGAN (18.11.14)
   - **`GAN`**
   - [note](notes/deep/began.md)
+
+- WaveGAN (18.11.17)
+
+  - **`GAN`**
+  - [note](notes/deep/wavegan.md)
+
 
 ### Style Transfer
 
