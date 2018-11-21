@@ -23,6 +23,10 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 
 ### Computer Vision
 
+- Deep Lab (18.11.21)
+  - **`Semantic Segmentaion`**
+  - [note](./notes/deep/deeplab.md)
+
 
 
 ### Generative Model
