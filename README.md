@@ -10,7 +10,7 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - [Deep Learning](#deep-learning)
   - [Computer Vision](#computer-vision)
   - [Generative Model](#generative-model)
-  - [Style Transfer](#style-transfer)
+  - [Image Transfer](#image-transfer)
 - Data Engineering
 - [Programming](#programming)
   - [Python](#python)
@@ -51,14 +51,6 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`GAN`**
   - [note](notes/deep/improved_gan.md)
 
-- Pix2Pix (18.11.05)
-  - **`GAN`**, **`IMAGE TRANSFER`** 
-  - [note](notes/deep/pix2pix.md)
-
-- Cycle GAN (18.11.07)
-  - **`GAN`**, **`IMAGE TRANSFER`** 
-  - [note](notes/deep/cycle_gan.md)
-
 - BEGAN (18.11.14)
   - **`GAN`**
   - [note](notes/deep/began.md)
@@ -68,8 +60,11 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`GAN`**
   - [note](notes/deep/wavegan.md)
 
+- - 
 
-### Style Transfer
+
+
+### Image Transfer
 
 - Image Style Transfer Using Convolutional Neural Networks (18.10.22)
   - **`STYLE TRANSFER`**
@@ -77,6 +72,18 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - Perceptual Loss for Real-Time Style Transfer (18.10.24)
   - **`STYLE TRANSFER`**
   - [note](notes/deep/style_transfer_for_real_time.md)
+
+- Pix2Pix (18.11.05)
+  - **`GAN`**, **`IMAGE TRANSFER`** 
+  - [note](notes/deep/pix2pix.md)
+- Cycle GAN (18.11.07)
+  - **`GAN`**, **`IMAGE TRANSFER`** 
+  - [note](notes/deep/cycle_gan.md)
+- Vid2Vid (18.11.22)
+  - **`GAN`**, **`VIDEO TRANSFER`**
+  - [note](notes/deep/vid2vid.md)
+
+
 
 ## Programming
 
