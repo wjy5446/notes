@@ -8,11 +8,9 @@
 
 ## Simple summary
 
->BEGAN은 discriminator을 auto-encoder을 사용하여, real 데이터와 fake 데이터의 auto-encoder loss의 W-distance을 loss로 삼는다. 기존의 EBGAN의 auto-encoder 개념과 WGAN의 개념을 동시에 사용한 듯 싶다. 또한, 여기서 D와 G가 안정적으로 학습하기 위해 equilibrium 개념을 소개한다. 이를 이용해 G와 D가 안정적으로 학습을 유도하고, image의 diversity을 control할 수 있으며, GAN의 수렴 척도를 계산할 수 있다.
+>Vid2Vid는 CGAN을 이용한 Video Transfer이다. Generator는 Pix2PixHD에서 제안한 Coarse-fine generator을 이용했으며, 여기에 optical flow와 mask를 이용한 방법과 입력으로 sequence을 넣어 주어 video transfer의 성능을 높혔다. Discriminator 또한 Pix2PixHD을 베이스로 했으며, 다수 Multi-scale PatchGAN을 이용했고, 여기에 image간의 Discriminator이외에 optical flow와 input sequence간의 Discriminator을 이용했다. Object function으로 이미지간의 Loss, video sequence간의 Loss, Optical flow간의 Loss을 이용했으며, 추가적으로 VGG Loss, feature matching loss을 이용해 성능을 높였다. 또한 vid2vid을 이용해 video prediction, multi-modal sunthesis, semantic manipulation등 여러가지 추가 기능도 소개하였다.
 
 
-
-## Notation
 
 - Soure videos (semantic segmentation)
 
