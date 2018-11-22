@@ -60,9 +60,6 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`GAN`**
   - [note](notes/deep/wavegan.md)
 
-- - 
-
-
 
 ### Image Transfer
 
