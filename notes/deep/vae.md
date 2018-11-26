@@ -12,6 +12,15 @@
 
 
 
+### Auto Encoder
+
+- encoder - decoder 구조
+- 출력으로 입력값을 내보내는 구조
+
+![0](../../images/vae-9.png)
+
+
+
 ## AE vs VAE
 
 - AE 
@@ -30,12 +39,8 @@
 
   - Maximum Likelihood를 이용해 학습
 
-  $$
-  \int\log p(x)=\int \log p(x,z)=\int \log p(x|z)p(z)
-  $$
 
-
-
+![0](../../images/vae-10.png)
 
 
 
@@ -44,6 +49,8 @@
   - $p(z)$ 을 알고있는 분포를 이용할 경우, Monte-carlo 적용 가능
   - $p(x|z)$ 을 gaussian을 이용했을 때, ML이 MSE Loss이 된다. 이 때, 밑 그림에서 (a, c)가 (a,b)보다 가깝지만, MSE에서 멀다고 측정된다. 
   - 그러므로, 학습이 잘 되지 않는다.  
+
+  ![0](../../images/vae-11.png)
 
   ![0](../../images/vae-0.png)
 
@@ -63,18 +70,13 @@ $$
 
 ## The Variational bound
 
-![2](../../images/vae-2.png)
-
-- $D_{KL}$은 항상 0보다 크다.
+![2](../../images/vae-12.png)
 
 - **Lower bound** 혹은 **ELBO**
-
   - $L(\theta, \phi;x^{(i)})=E_{q_{\phi}(z|x)}[-\log q_{\phi}(z|x)+\log p_{\theta}(x,z)]$ 
   - Lower bound을 최대화 시킴
 
-
-
-  ![3](../../images/vae-3.png)
+ ![3](../../images/vae-3.png)
 
 - 첫번째 Term
 
@@ -151,4 +153,4 @@ $$
 - PR-010: Auto-Encoding Variational Bayes - 차준범, https://www.youtube.com/watch?v=KYA-GEhObIs
 - 초짜 대학원생의 입장에서 이해하는 Auto-Encoding Variational Bayes (VAE) - 유재준, http://jaejunyoo.blogspot.com/2017/04/auto-encoding-variational-bayes-vae-2.html
 
-- Auto-encoder - 이진호, https://www.slideshare.net/JinhoLee59/autoencoders-113630741?from_m_app=android
+- Auto-encoder - 이진호, https://www.slideshare.net/JinhoLee59/autoencoders-113630741?from_m_app=androidA
