@@ -1,6 +1,7 @@
 # R-CNN Tutorial
 
 - [Lnit-RCNN_tutorial](https://blog.lunit.io/2017/06/01/r-cnns-tutorial/)
+- https://www.youtube.com/watch?v=RtSZALC9DlU
 
 
 
