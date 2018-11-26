@@ -88,7 +88,7 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 
 - Everybody Dance Now (18.11.27)
   - **`GAN`**, **`MOTIOM TRANSFER`**
-  - [note](notes/deep/everybody_dance_now.md)
+  - [note](notes/deep/everbody_dance_now.md)
 
 
 
