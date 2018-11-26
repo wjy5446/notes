@@ -27,6 +27,10 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`Semantic Segmentaion`**
   - [note](./notes/deep/deeplab.md)
 
+- Variant of the R-CNN (R-CNN, Fast R-CNN, Faster R-CNN, Mask R-CNN) (18.11.16)
+  -  **`Object Detection`**, **`Intanstance Segmentaion`**
+  - [note](./notes/deep/R-CNN.md)
+
 
 
 ### Generative Model
