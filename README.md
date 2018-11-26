@@ -65,6 +65,8 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - [note](notes/deep/wavegan.md)
 
 
+
+
 ### Image Transfer
 
 - Image Style Transfer Using Convolutional Neural Networks (18.10.22)
@@ -83,6 +85,10 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - Vid2Vid (18.11.22)
   - **`GAN`**, **`VIDEO TRANSFER`**
   - [note](notes/deep/vid2vid.md)
+
+- Everybody Dance Now (18.11.27)
+  - **`GAN`**, **`MOTIOM TRANSFER`**
+  - [note](notes/deep/everybody_dance_now.md)
 
 
 
