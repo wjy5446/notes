@@ -16,13 +16,15 @@
 
 - 두 사람의 이미지를 pixel기반으로 motion translation하는 것이 목표
 
+![](../../images/ebn_19.png)
+
 
 
 ## Method overview
 
-- corresponding pair : target image, pose stick figure 사용
-- 이전 프래임도 조건으로 입력 : temporal smoothness을 위해
-- specializded GAN 이용 : 사용자의 얼굴을 명확히 하기 위해.
+- **Corresponding pair** : `target image`, `pose stick figure`을 페어로 Pix2PixHD를 학습
+- **Temporal Smoothness** : 이전 프래임도 조건으로 입력
+- **Face GAN** : 사용자의 얼굴을 명확히 하기 위해서 사용
 
 
 
@@ -37,7 +39,7 @@
 
 
 - **training**
-  - source에서 pose stick figure을 생성
+  - 오픈 소스인 **OpenPose** 을 이용해 source에서 pose stick figure을 생성
   - Generator는 pose stick figure에서 실제 이미지를 생성하도록 학습
   - Discriminator는 (실제이미지, pose stick figure), (가짜이미지, pose stck figure)을 구분하도록 학습
   - Discriminator은 또한 VGG을 이용해 생성된 이미지와 실제 이미지를 비슷하게 맞추어 줌.
@@ -67,21 +69,29 @@
 
 
 
-**Detai**l
+**Detail**
 
 - 발이 땅에 붙어있을 때, ankle 위치의 최소, 최대 값을 구함
-  - 카메라에서 얼마나 떨어져 있는지를 나타냄
-  - ankle 위치가 최대일 때, 카메라에 가까이에 위치
-  - 이 때, 최소 ankle위치는 클러스터링을 구하고, 그 내에서 최대값을 선택
-    - ankle의 median보다 작고, median과 max사이의 거리에 비례해서 median값에 대한 거리에 있는 값을 사용
+  - ankle 위치의 최대값은 y가 최대인 값을 선택
+  - ankle 위치의 최솟값은 어떤 조건 식에 만족하는 클러스터를 구하고, 그 내에서 최댓값을 선택
+    - 공중에서 떨어진 y값이 존재할 수 있기 때문에.
+    - median 값보다 작고, median에서 median과 max간의 거리값 만큽 떨어진 값을 선택
 
 ![](../../images/ebn_15.png)
+
+
+
+
 
 - Translation : linear mapping
 
 ![](../../images/ebn_18.png)
 
-- Scale : mimimum과 maximum 주변의 height을 clustering하고, 그중에 제일 큰 값을 찾음. 이 때, maximum의 height을 t_close, minimum의 height을 t_far이라 함
+
+
+- Scale : mimimum과 maximum주변의 height을 clustering
+- 그중에 제일 큰 값을 찾음.  
+- maximum의 height을 `t_close`, minimum의 height을 `t_far`이라 함
 
 ![](../../images/ebn_17.png)
 
@@ -123,16 +133,23 @@
 
 ![](../../images/ebn_4.png)
 
+
+
+
+
 ### Face GAN
 
 - 얼굴이미지을 명확하게 만들기 위해서 수행
+- 128x128 face residual 생성
 - 우선, stick figure와 생성된 이미지에서 face 부분만 추출하고,
 - Generator : 실제 pose stick과 생성된 이미지을 이용해 residual 이미지 생성 (pix2pixHD의 global generator)
-- Discriminator : real(실제 stick, 실제 이미지), fake(실제 stick, r+생성된 이미지)을 구분 (70x70 discriminator)
+- Discriminator : real(실제 stick, 실제 이미지), fake(실제 stick, r+생성된 이미지)을 구분 (70x70 Patch-GAN discriminator)
 
 ![](../../images/ebn_6.png)
 
 ![](../../images/ebn_7.png)
+
+
 
 ### Full Objective
 
@@ -161,11 +178,16 @@
 
 ## Experiments
 
-- SSIM, LPIPS
+- SSIM(Structure Similarity Measure), LPIPS(Learned Perceptual Image Patch Similarity)
   - body의 경우, SSIM은 모두 비슷하게 측정
   - face의 경우, full model이 성능이 제일 좋음
+  - `body`
 
 ![](../../images/ebn_10.png)
+
+
+
+- ​	`face`
 
 ![](../../images/ebn_11.png)
 
@@ -196,10 +218,13 @@
 ## Discussion
 
 - Limitation
+
   - keypoint가 올바르지 않거나 놓칠 경우, 결과가 좋지 않음
   - pre-smoothine과 temporal coherence을 이용했지만 흔들림이 계속 발생
   - 움직임 속도와 training의 행동이 많이 다를 경우, error 발생
-  - 여기서 사용된 simple한 pose normalization은 팔다리의 길이와 카메라 위치, 각도를 설명해 주지 않는다.
+  - 여기서 사용된 simple한 pose normalization은 정확하지 않음
+
 - future work
+
   - temporally coherent을 강화
   - Pose stick figure 없이 motion transfer을 수행
