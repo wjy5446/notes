@@ -14,6 +14,8 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - Data Engineering
 - [Programming](#programming)
   - [Python](#python)
+- Data Analysis
+  - [Visualize](#visualize)
 
 
 
@@ -64,9 +66,6 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`GAN`**
   - [note](notes/deep/wavegan.md)
 
-
-
-
 ### Image Transfer
 
 - Image Style Transfer Using Convolutional Neural Networks (18.10.22)
@@ -85,12 +84,9 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - Vid2Vid (18.11.22)
   - **`GAN`**, **`VIDEO TRANSFER`**
   - [note](notes/deep/vid2vid.md)
-
 - Everybody Dance Now (18.11.27)
   - **`GAN`**, **`MOTIOM TRANSFER`**
   - [note](notes/deep/everbody_dance_now.md)
-
-
 
 ## Programming
 
@@ -99,3 +95,11 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - Iterator, Generator, Coroutine (18.10.20)
   - **`ITERATOR`**, **`GENERATOR`**
   - [note](./notes/program/Iterator_generator.md)
+
+## Data Analysis
+
+### Visualize
+
+- GeoPandas (18.12.02)
+  - **`VISUALIZE`**, **`GEOGRAPHY`**
+  - [note](./notes/analysis/geopandas.md)
