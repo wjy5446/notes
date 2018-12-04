@@ -66,6 +66,8 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`GAN`**
   - [note](notes/deep/wavegan.md)
 
+
+
 ### Image Transfer
 
 - Image Style Transfer Using Convolutional Neural Networks (18.10.22)
@@ -74,7 +76,6 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - Perceptual Loss for Real-Time Style Transfer (18.10.24)
   - **`STYLE TRANSFER`**
   - [note](notes/deep/style_transfer_for_real_time.md)
-
 - Pix2Pix (18.11.05)
   - **`GAN`**, **`IMAGE TRANSFER`** 
   - [note](notes/deep/pix2pix.md)
@@ -87,6 +88,11 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - Everybody Dance Now (18.11.27)
   - **`GAN`**, **`MOTIOM TRANSFER`**
   - [note](notes/deep/everbody_dance_now.md)
+- Disco GAN (18.12.05)
+  - **`GAN`**, **`IMAGE TRANSFER`**
+  - [note](notes/deep/discogan.md)
+
+
 
 ## Programming
 
