@@ -66,6 +66,10 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`GAN`**
   - [note](notes/deep/wavegan.md)
 
+- WGAN-GP (18.12.05)
+  - **`GAN`**
+  - [note](notes/deep/wgan_gp.md)
+
 
 
 ### Image Transfer
