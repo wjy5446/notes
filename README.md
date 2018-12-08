@@ -96,6 +96,10 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`GAN`**, **`IMAGE TRANSFER`**
   - [note](notes/deep/discogan.md)
 
+- Star GAN (18.12.08)
+  - **`GAN`**, **`IMAGE TRANSFER`**
+  - [note](notes/deep/stargan.md)
+
 
 
 ## Programming
