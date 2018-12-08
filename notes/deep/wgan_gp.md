@@ -99,8 +99,9 @@
 
 ### Two-sided penalty
 
+- Gradient을 어떻게 줄지를 파악
 - Two-sided penalty : gradient norm이 1을 향해 감
-- One-sided penalty : gradient norm이 1에 머뭄
+- One-sided penalty : gradient norm이 1보다 적게 할 것인지
 - 실험적으로 one-sided penalty가 잘 수행할 것 같으나, two-sided penalty가 약간 잘 수행한다.
 
 
