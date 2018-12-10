@@ -70,6 +70,10 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`GAN`**
   - [note](notes/deep/wgan_gp.md)
 
+- PGGAN (18.12.10)
+  - **`GAN`**
+  - [note](notes/deep/pggan.md)
+
 
 
 ### Image Transfer
