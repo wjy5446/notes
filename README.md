@@ -74,6 +74,10 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`GAN`**
   - [note](notes/deep/pggan.md)
 
+- Flow-based-model (18.12.18)
+  - **`FLOW MODEL`**
+  - [note](notes/deep/flow_based_model.md)
+
 
 
 ### Image Transfer
