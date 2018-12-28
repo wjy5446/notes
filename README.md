@@ -78,6 +78,10 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`FLOW MODEL`**
   - [note](notes/deep/flow_based_model.md)
 
+- WaveNet (18.12.29)
+  - **`AUTO-REGRESSIVE`**, **`SPEECH`** 
+  - [note](notes/deep/wavenet.md)
+
 
 
 ### Image Transfer
