@@ -112,7 +112,7 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`GAN`**, **`IMAGE TRANSFER`**
   - [note](notes/deep/stargan.md)
 
-- Instar GAN (19.01.07)
+- Insta GAN (19.01.07)
   - **`GAN`**, **`IMAGE TRANSFER`**
   - [note](notes/deep/Instagan.md)
 
