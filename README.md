@@ -25,10 +25,12 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 
 ### Computer Vision
 
+- ArcFace(19.02.25)
+  - **`EMBEDDING`**, **`FACE RECOGNIZATION`** 
+  - [note](./notes/deep/arcface.md)
 - Deep Lab (18.11.21)
   - **`Semantic Segmentaion`**
   - [note](./notes/deep/deeplab.md)
-
 - Variant of the R-CNN (R-CNN, Fast R-CNN, Faster R-CNN, Mask R-CNN) (18.11.16)
   -  **`Object Detection`**, **`Intanstance Segmentaion`**
   - [note](./notes/deep/R-CNN.md)
