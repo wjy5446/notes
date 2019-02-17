@@ -76,6 +76,9 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - WaveNet (18.12.29)
   - **`AUTO-REGRESSIVE`**, **`SPEECH`** 
   - [note](notes/deep/wavenet.md)
+- IAF (19.02.17)
+  - **`FLOW MODEL`**
+  - [note](notes/deep/IAF.pdf)
 
 
 
