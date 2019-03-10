@@ -80,6 +80,10 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`FLOW MODEL`**
   - [note](notes/deep/IAF.pdf)
 
+- F-GAN (19.03.11)
+  - **`GAN`**
+  - [note](notes/deep/fgan.md)
+
 
 
 ### Image Transfer
