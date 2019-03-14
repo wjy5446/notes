@@ -11,6 +11,7 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - [Computer Vision](#computer-vision)
   - [Generative Model](#generative-model)
   - [Image Transfer](#image-transfer)
+  - [Natural Language Processing](#Natural Language Processing)
 - Data Engineering
 - [Programming](#programming)
   - [Python](#python)
@@ -117,6 +118,14 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - Insta GAN (19.01.07)
   - **`GAN`**, **`IMAGE TRANSFER`**
   - [note](notes/deep/Instagan.md)
+
+
+
+### Natural Language Processing
+
+- NNLM (19.03.14)
+  - **`NLP`**, **`EMBEDDING`**
+  - [note](notes/deep/nnlm.md)
 
 
 
