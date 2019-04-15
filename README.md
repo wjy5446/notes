@@ -126,7 +126,9 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - NNLM (19.03.14)
   - **`NLP`**, **`EMBEDDING`**
   - [note](notes/deep/NNLM.md)
-
+- Attention is All You Need
+  - **`NLP`**
+  - [note](notes/deep/self-attention.md)
 
 
 ## Programming
