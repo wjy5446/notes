@@ -130,6 +130,12 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
   - **`NLP`**
   - [note](notes/deep/self-attention.md)
 
+- Structured Self-Attentive Sentence Embedding (19.04.24)
+  - **`NLP`**
+  - [note](notes/deep/san.md)
+
+
+
 
 ## Programming
 
