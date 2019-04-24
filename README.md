@@ -43,40 +43,52 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - Auto-Encoding Variational Bayes (18.10.18)
   - **`VAE`**
   - [note](./notes/deep/vae.md)
+  
 - Conditional VAE, Adversarial AE (18.10.18)
   - **`VAE`**
   - [note](./notes/deep/cvae_aae.md)
+  
 - Generative Adversarial Nets (18.10.28)
   - **`GAN`**
   - [note](./notes/deep/gan.md)
+  
 - LSGAN (18.10.28)
   - **`GAN`**
   - [note](./notes/deep/lsgan.md)
+  
 - Improved Techniques for Training GANs (18.10.31)
   - **`GAN`**
   - [note](notes/deep/improved_gan.md)
+  
 - BEGAN (18.11.14)
   - **`GAN`**
   - [note](notes/deep/began.md)
+  
 - WaveGAN (18.11.17)
 
   - **`GAN`**
   - [note](notes/deep/wavegan.md)
+  
 - WGAN-GP (18.12.05)
   - **`GAN`**
   - [note](notes/deep/wgan_gp.md)
+  
 - PGGAN (18.12.10)
   - **`GAN`**
   - [note](notes/deep/pggan.md)
+  
 - Flow-based-model (18.12.18)
   - **`FLOW MODEL`**
   - [note](notes/deep/flow_based_model.md)
+  
 - NICE (19.02.13)
   - **`FLOW MODEL`**
   - [note](notes/deep/nice.md)
+  
 - WaveNet (18.12.29)
   - **`AUTO-REGRESSIVE`**, **`SPEECH`** 
   - [note](notes/deep/wavenet.md)
+  
 - IAF (19.02.17)
   - **`FLOW MODEL`**
   - [note](notes/deep/IAF.pdf)
@@ -84,8 +96,13 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - F-GAN (19.03.11)
   - **`GAN`**
   - [note](notes/deep/fgan.md)
+  
+- Conditional GAN (19.04.25)
 
+  - **`GAN`**
+  - [note](notes/deep/cgan.md)
 
+  
 
 ### Image Transfer
 
