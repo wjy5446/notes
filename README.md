@@ -150,6 +150,9 @@ summarize the `papers`, `lectures`, `article`, `seminar`  :book: :man_student: H
 - Structured Self-Attentive Sentence Embedding (19.04.24)
   - **`NLP`**
   - [note](notes/deep/san.md)
+- Hierarachical Attention Networks for Document Classification (19.04.26)
+  - **`NLP`**
+  - [note](notes/deep/han.md)
 
 
 
